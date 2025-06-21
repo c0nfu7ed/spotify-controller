@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spotify Controller</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #121212;
+      color: white;
+      flex-direction: column;
+    }
+    button {
+      background: #1db954;
+      border: none;
+      border-radius: 25px;
+      padding: 12px 20px;
+      margin: 10px;
+      font-size: 16px;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2>Spotify Controls</h2>
+  <button onclick="prevTrack()">⏮️ Prev</button>
+  <button onclick="togglePlay()">⏯️ Play/Pause</button>
+  <button onclick="nextTrack()">⏭️ Next</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
