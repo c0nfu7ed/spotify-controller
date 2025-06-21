@@ -5,7 +5,7 @@ async function getToken() {
 
   if (!hash) {
     const CLIENT_ID = "84d0f74904cd4f26a11629ae2f4a50ef";
-    const REDIRECT_URI = "https://c0nfu7ed.github.io/spotify-controller/callback.html";
+    const REDIRECT_URI = "https://c0nfu7ed.github.io/spotify-controller/";
     const SCOPES = [
       "user-read-playback-state",
       "user-modify-playback-state",
